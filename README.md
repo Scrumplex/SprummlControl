@@ -1,4 +1,4 @@
-# Sprummlbot Manager
+# SprummlControl
 An Android client for the Sprummlbot platform.
 
 ## License
