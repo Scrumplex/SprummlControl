@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin">
+    <EditText
+        android:id="@+id/banReason"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:maxLength="1024"
+        android:hint="@string/dialog_client_message_hint"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/banTimeFormat"
+        android:layout_gravity="end"
+        android:layout_below="@+id/banReason"
+        android:layout_alignEnd="@+id/banReason"
+        android:layout_alignBottom="@+id/banTime"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/banTime"
+        android:layout_below="@+id/banReason"
+        android:layout_alignStart="@+id/banReason"
+        android:layout_toStartOf="@+id/banTimeFormat"
+        android:text="@string/ten" />
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="client_actions">
+        <item>Send private message</item>
+        <item>Poke Client</item>
+        <item>Kick Client</item>
+        <item>Ban Client</item>
+    </array>
+    <array name="query_actions">
+        <item>Shutdown</item>
+    </array>
+    <array name="ban_times">
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Permanent</item>
+    </array>
+</resources>
